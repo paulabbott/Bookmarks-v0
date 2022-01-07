@@ -1,5 +1,6 @@
 import { isUrlReachableFromBE } from './isUrlReachableFromBE'
 
+export const sum = (a, b) => a + b;
 
 export const ValidateUrlFormatPromise = (input) => {
   const valid = /^(ftp|http|https):\/\/[^ "]+$/.test(input);
